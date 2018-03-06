@@ -5,3 +5,11 @@ touch 1.txt		创建文件
 git status		查看文件状态
 git add 1.txt	添加文件到git
 git log		查看之前提交的更改
+git commit -m "change 1"	提交，并添加备注
+git log		查看更改日志
+git status -s	查看状态
+git diff	查看更改
+git add .	添加所有
+git diff --cached	查看当前提交的版本和上一个版本的不同
+git reset --hard 2a14789	回到当前指定版本
+git reflog		查看历史所有版本
