@@ -13,3 +13,5 @@ git add .	添加所有
 git diff --cached	查看当前提交的版本和上一个版本的不同
 git reset --hard 2a14789	回到当前指定版本
 git reflog		查看历史所有版本
+git  commit --amend --no-edit		不更换版本提交
+	
