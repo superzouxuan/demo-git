@@ -22,5 +22,11 @@ git checkout dev			切换分支
 git branch -d dev			删除分支
 git checkout -b dev			创建分支并移动指针
 分支之间是平行的，互不干扰
+<<<<<<< Updated upstream
 git marge dev				合并分支，并保证你是在master分支上
 boss branch
+=======
+git merge dev				合并分支，并保证你是在master分支上
+git merge --no-ff -m "keep merge info" dev
+git stash				将正在修改的文件放入缓存区，可以去修改其他的文件
+>>>>>>> Stashed changes
