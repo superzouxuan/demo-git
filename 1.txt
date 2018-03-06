@@ -15,3 +15,9 @@ git reset --hard 2a14789	回到当前指定版本
 git reflog		查看历史所有版本
 git  commit --amend --no-edit		不更换版本提交
 git checkout c8823a1 -- 1.txt		单个文件回滚到某个版本，不影响任何版本
+git log --oneline --graph		以图形的方式查看分支
+git branch dev				新建分支
+git branch				查看分支
+git checkout dev			切换分支
+git branch -d dev			删除分支
+git checkout -b dev			创建分支并移动指针
