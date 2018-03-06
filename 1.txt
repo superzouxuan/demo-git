@@ -1,0 +1,7 @@
+git config --global user.name "zouxuan"		指定用户名
+git config  --global user.email "superzouxuan@163.com"	指定邮箱
+git config user.name	查看用户名
+touch 1.txt		创建文件
+git status		查看文件状态
+git add 1.txt	添加文件到git
+git log		查看之前提交的更改
