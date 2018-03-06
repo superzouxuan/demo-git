@@ -21,3 +21,5 @@ git branch				查看分支
 git checkout dev			切换分支
 git branch -d dev			删除分支
 git checkout -b dev			创建分支并移动指针
+分支之间是平行的，互不干扰
+git marge dev				合并分支，并保证你是在master分支上
